@@ -1,0 +1,151 @@
+@font-face {
+    font-family:Comissioner ;
+    src: url(fonts/Commissioner-VariableFont_wght.ttf);
+}
+
+header {
+    height: 220px;
+    padding-top: 20px;
+    background-color: #fd9a53; 
+    margin: 0 ;
+    display: flex;
+}
+
+body {
+    font-family: Comissioner;
+    background: linear-gradient(to right, #3d3d3d, #9b9b9b);
+    margin: 0 auto;
+}
+
+main {
+    background-color:white;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+h4{
+    margin-bottom: -3px;
+    letter-spacing: 2px;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #000000;    
+}
+
+strong{
+    color: #ff7613;
+    text-decoration: none; 
+}
+
+span{
+    margin-left: 10px;
+}
+
+hr.linia{
+    margin-bottom: 3px;
+    border-top: 2px solid #ff7613;
+    width: 90%;
+    margin-top: 15px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.foto {
+    margin-top: 1%;
+    margin-left: 7%;
+    width: 150px;
+    height: 150px;
+}
+
+.FlexC{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Presentacio{
+    padding-left: 2%;
+    margin-top: -7%;
+    flex-basis: 30%;
+}
+
+.NOM{
+    color: black;
+    font-weight: 700;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.COGNOM{ 
+    color: white;
+    font-weight: 200;
+    font-size : 40px;
+    text-transform: uppercase;
+}
+
+.Soc{
+    flex-basis: 70%;
+    margin-top: -5%;
+    padding-left: 2%;
+}
+
+.Titol{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Descripcio{
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.contacte{
+    width: 20px;
+    height: 20px;
+}
+
+.Flex{
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+}
+
+.Esq{
+    background-color: white;
+    flex-basis: 50%;
+    padding-right: 3%;
+}
+
+.dre{
+    padding-left: 3%;
+    background-color: white;
+    flex-basis: 50%;
+}
+
+.Aptituts{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 10%;
+    margin-top: 3%;
+    grid-gap: 10px;
+    margin-right: 3%;
+}
+
+.FormatDreta{
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.MargEsq {
+    margin-left: 10%
+}
+
+.llista {
+    margin-top: 13px;
+}
