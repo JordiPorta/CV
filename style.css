@@ -80,14 +80,14 @@ li{
 .NOM{
     color: black;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 
 .COGNOM{ 
     color: white;
     font-weight: 200;
-    font-size : 40px;
+    font-size : 2.5rem;
     text-transform: uppercase;
 }
 
@@ -101,11 +101,11 @@ li{
     margin-left: 10px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .Descripcio{
-    margin-left: 10px;
+    margin-left: 1rem;
     color: white;
     font-weight: 400;
 }
@@ -140,18 +140,17 @@ li{
 }
 
 .Aptituts{
-    display: flex;
-    flex-direction: column;
+
     margin-left: 10%;
     margin-top: 3%;
     margin-right: 3%;
-    font-size: 1.2rem;
 }
 
 .FormatDreta{
     margin-left: 10%;
     margin-top: 3%;
     margin-right: 3%;
+  
 }
 
 .MargEsq {
