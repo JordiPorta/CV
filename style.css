@@ -8,6 +8,7 @@ header {
     background-color: #fd9a53; 
     margin: 0 ;
     display: flex;
+    padding-bottom: 1rem;
 }
 
 body {
@@ -108,6 +109,10 @@ li{
     margin-left: 1rem;
     color: white;
     font-weight: 400;
+}
+.about{
+    text-align: justify;
+
 }
 
 .contacte{
