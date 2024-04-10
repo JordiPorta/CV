@@ -5,7 +5,8 @@
 header {
     height: auto;
     padding-top: 20px;
-    background-color: #fd9a53; 
+    /*background-color: #fd9a53; */
+    background-color: #53b9fd;
     margin: 0 ;
     display: flex;
     padding-bottom: 1rem;
@@ -32,7 +33,7 @@ h4{
 }
 
 strong{
-    color: #ff7613;
+    color:  #53b9fd;
     text-decoration: none; 
 }
 
@@ -42,7 +43,7 @@ span{
 
 hr.linia{
     margin-bottom: 3px;
-    border-top: 2px solid #ff7613;
+    border-top: 2px solid  #53b9fd;
     width: 90%;
     margin-top: 15px;
 }
