@@ -15,12 +15,14 @@ body {
     font-family: Comissioner;
     background: linear-gradient(to right, #3d3d3d, #9b9b9b);
     margin: 0 auto;
+    
 }
 
 main {
     background-color:white;
     margin: 0 auto;
     max-width: 900px;
+    overflow: auto;
 }
 
 h4{
@@ -151,6 +153,12 @@ li{
     margin-right: 3%;
 }
 
+.Projects{
+    margin-left: 10%;
+    margin-right: 8%;
+    
+}
+
 .FormatDreta{
     margin-left: 10%;
     margin-top: 3%;
@@ -161,15 +169,18 @@ li{
 .MargEsq {
     margin-left: 10%
 }
+.link{
+    font-size: 1.2em;
 
+}
 .llista {
     margin-top: 13px;
     font-size: 1rem;
 }
 @media only screen and (max-width: 600px) {
     .Aptituts {
-        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
-        margin-left: 5%; /* Puedes ajustar los márgenes según sea necesario */
+        grid-template-columns: 1fr;
+        margin-left: 5%; 
         margin-right: 5%;
     }
 }
